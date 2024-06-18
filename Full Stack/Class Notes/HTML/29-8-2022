@@ -1,0 +1,59 @@
+Charset:-
+ASCII :-
+7 bits:- 
+0 127
+ISO - HTML 4 --
+ISO-8859-1
+1 byte = 8 bits = 256 
+UTF =Unicode Transformation -- 10,000 characters - HTML 5
+UTF-8 bytes=1,2,3,4
+UTF-16 Bytes=2 or 4
+UTF-32 
+Signed Unsigned
+int a; 2 byte = 16 Bits = 2^16 = 65536/2 --  
+32768   32768
+-32768 ---- 0  ----- 32767
+int b=32769
+printf("%d",b);
+Output
+-32767
+Charset:-
+- Used is to provide the encoding methods by which the 
+characters,decimal,symbols all having uniques values.
+- Tells the browser which encoding method is used.
+- Charset is Attribute
+- With the help of Meta Tag you can use the Charset attribute,
+- In Charset you can give values:-
+- ISO-8859-1
+- UTF-8
+- UTF-16
+- UTF-32
+In the very begining ASCII Concept is Used for characters
+ Encoding.
+- ASCII :-
+a. 7 bits of storage is used.
+b. Total 127 characters can be used.
+c. Alphabets -A-Z --A-65-Z-90 a-z a-97 -- z- 122
+There is problem if there are more than 127 characters.
+To Solve this problem -- ISO-8859-1 HTML 4
+ISO-8859-1:-
+8 Bits Storage = 1 Byte = 256
+There is problem if there are more than 256 characters.
+To Solve this problem -- UTF
+UTF=Unicode Transformation
+HTML 5
+UTF-8:- 
+a. Minimum 1 byte storage
+b. Support ASCII
+c. Can Use 1,2,3,4 bytes
+d. Nearly 10,000 characters Support
+In UTF-8 You can use any language used in the world.
+UTF-16 
+UTF-32
+
+
+
+
+
+
+

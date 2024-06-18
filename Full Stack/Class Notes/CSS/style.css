@@ -1,0 +1,42 @@
+/* h1,h2,h3,h4,h5,h6,div,p{
+    color:red;
+} */
+/* /* *{
+  color: red;
+  background-color: blue;   
+} */
+/* h1{
+    color: green !important;
+}
+div > h1{
+    color: red !important;
+    border: 2px solid yellow;
+} */
+/* div > h1{
+    color: red ;
+    border: 2px solid yellow;
+} */
+
+ /* i > span{
+    color: red ;
+    border: 2px solid yellow;
+} */
+/* p > div{
+    color: red ;
+    border: 2px solid yellow;
+} */
+
+/* Desendent Selector */
+/* div h1{
+    color: red ;
+    border: 2px solid yellow;
+} */
+/* div + h1{
+    color: red ;
+    border: 2px solid yellow;
+} */
+span > div{
+    color: red ;
+    border: 2px solid yellow;
+}
+

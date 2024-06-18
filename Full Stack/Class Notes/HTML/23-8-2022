@@ -1,0 +1,39 @@
+Descriptive List:-
+- Used to Display items with some information.
+- Tags:-
+DL - Descriptive List 
+-- Parent Element - paired Tag
+DT - Description Name --
+DD - Description Details -- Used to give info
+for the description name.
+
+HTML Computer Code:-
+// Sum of Two Numbers
+#include<stdio.h>
+void main()
+{
+    int a,b=10;
+    printf("Sum of %d and %d is :- %d",a,b,a+b);
+
+}
+
+Tags:- 
+1. Code :-
+Used to display the code of the program.
+2. Pre :- Preformatting
+Used to Display the content as it is.
+3. var :- Used to give the varible name.
+-- Display the variable name with slight tilde right side.
+4. samp :- 
+- Used to display the 
+sample input/Output for the program
+5. kbd :- Keyboard Input
+- Used to display the value entered by the Keyboard.
+
+
+
+
+
+
+
+

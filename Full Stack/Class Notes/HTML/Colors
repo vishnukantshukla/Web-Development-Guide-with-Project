@@ -1,0 +1,68 @@
+- Used to give effects to the webpages or website.
+- Website is collection of webpages
+- Background color
+- Border Color
+- Text Color
+- How many ways are there to give values to color property
+- 4 ways :-
+1. Giving Color Name
+2. RGB - 
+R - Red
+G - Green
+B - Blue
+value -- 0 to 255
+Syntax:-
+<p style="color: rgb(value for red,value for green,value for blue)">
+
+for example:-
+rgb(255,0,0) -- Red 
+rgb(0,255,0) -- Green
+rgb(0,0,255) -- Blue
+rgb(0,0,0) -- 
+rgb(255,255,255) -- 
+
+RGBA -- 
+A -- Alpha 
+Opacity 
+value for A:- 
+0.0 to near 1(0.997)
+
+3. Using Hexadecimal Values
+Maximum value in hex :- 16
+0-9 a-f
+Syntax:-
+#rrggbb
+#ff0000 -- red
+#00ff00 -- Green
+#0000ff -- Blue
+
+4. HSL :-
+Hue :- To check the darkness or lightness 
+Value -- 0 to 360
+
+Saturation:-
+Value = % 
+
+Lightness :-
+value = %
+
+HSLA 
+A - Alpha
+Opacity
+0.0 to near to 1 (0.997)
+Task:-
+Generate colors for 12 color sketch packet
+RGB
+Hex
+-Testing HSL,HSLA,RGBA
+
+
+
+
+
+
+
+
+
+
+

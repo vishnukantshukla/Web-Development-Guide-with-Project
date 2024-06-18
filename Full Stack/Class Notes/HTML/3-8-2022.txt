@@ -1,0 +1,81 @@
+HTML:-
+HOW Webform displayed in browser
+1. DNS
+2. IP 
+3. Web Server
+
+HTML Elements:-
+- Everything from the starting tag till ending tag.
+- For example:-
+<starttag>......</starttag>
+- <html>...</html>
+- <title>Document</title>
+- <body>...</body>
+
+Types of Elements:-
+1. Root Element:-
+- That tells the system starting of html document.
+- Example:-
+<html>...</html>
+2. Nested Element:-
+- Element inside another element
+- <html>
+<head></head>
+</html>
+-<head>
+<title>..</title>
+</head>
+
+3. Empty Element
+- Single Tag
+- No content
+For Example:-
+- <hr>
+- <br>
+
+HTML Attributes:-
+- Tells additional information about the effects on the
+ content or the tag.
+- Written inside the start tag
+- Written with name and value pair.
+- For example:-
+- lang="en"
+- charset="UTF-8"
+
+Types of Attributes:-
+1. style:- 
+<div style="">
+.......
+.......
+
+</div>
+
+<pre>...</pre>
+    v/s
+<p>...</p>
+Absent=17,51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

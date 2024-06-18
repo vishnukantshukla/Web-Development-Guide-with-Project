@@ -1,0 +1,200 @@
+CSS:-
+Why css?
+- Formatting
+- Write once and use on different html documents.
+- Link element :- 
+<link rel="stylesheet" href="a.css">
+- Loading of html document is fasster.
+- No HTML code.
+
+Types of css :-
+a. Inline
+b. Internal
+c. External
+
+Selectors:-
+ h1{
+          color: red;  
+    }
+h1 - Selector/Element/Tag name
+- Decalartion:-
+Content given inside the curly braces.
+{
+          color: red;  
+    }
+
+- Property Name = Color
+- Property Value = red
+Category of Selectors:-
+I - General Selectors:-
+a. Using the Tag name
+- If you want to give effect to element then you can use 
+this method.
+- For Example:-
+h1{
+    color:red;
+}
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Selector</h1>
+    <h2>aaaaa</h2>
+    <h1>bbbbbbbb</h1>
+</body>
+- H1 only
+
+b. Using the ID Name
+c. Using the Class Name
+d. Using Grouping Elements
+- If you want to give same effects to the different elements
+use grouping concept.
+- Code reduced.
+- Elements seperated by comma.
+For Example:-
+h1,h2,h3,h4,h5,h6,div,p{
+    color:red;
+}
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Selector</h1>
+    <h2>aaaaa</h2>
+    <h3>bbbbbbbb</h3>
+    <h4>ccccc</h4>
+    <h5>dddd</h5>
+    <h6>eeee</h6>
+    <div>ffffff</div>
+    <p>gggggg</p>
+</body>
+- Effects on all elements that are grouped.
+
+e. Using the Universal Selector:-
+- If you want to give effects to all the elements in html 
+doc then use Universal selector.
+- Use *(Asterik Symbol) Symbol.
+- For Example:-
+
+II Combinators:-
+- If there is relationship between the elements
+then we use Combinators concept.
+- Categories:-
+a. Child Relationship/Child Selector:-
+- If there is relation of child(second element) 
+with first element use child relation concept.
+- > - Greater Then Symbol
+- For Example:-
+div > h1{
+    color: red !important;
+    border: 2px solid yellow;
+}
+<link rel="stylesheet" href="style.css">
+<body>
+    <span>
+    <span><h1>Heading 1</h1></span> 
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    </span>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <div >
+        <h1>Heading 1</h1>
+        <span>
+            <h1>Heading 1</h1>
+        </span>
+    </div>
+    <p>Paragraph 1</p>
+</body>
+
+Block Elements:-
+- Simple Block Element - Support 
+- Div element - div - support
+- Div element - p - support
+- p element - div - not supported
+- p element - p - not supported
+- Div element - inline - not supported
+
+Inline Elements:- 
+- Simple Inline (Parent Only) - Support
+- Inline - Inline (Same element) - Support
+- Inline - Inline (Different Element) - Supported
+- Inline - Block - 
+
+b. Desendent Selector:- 
+- Syntax:- 
+Element1 Element2{
+    ...
+}
+
+For Example:- 
+/* Desendent Selector */
+div h1{
+    color: red ;
+    border: 2px solid yellow;
+}
+<link rel="stylesheet" href="style.css">
+
+<body>
+ <div>
+    <h1>Heading 1</h1>
+    <span>
+        <h1>Heading 1</h1>
+    </span>
+    <h2>Heading 2</h2>
+ </div>
+ <h1>Heading 1</h1>
+ <h2>Heading 2</h2>
+</body>
+- First 2 Headings(H1).
+
+c.  Immediate Sibling Selector:- 
+- If you want to select all elements(h1) immediate after parent child relation.
+- + Symbol
+- Syntax:-
+element1 + Element2
+{
+    ...
+}
+For Example:-
+div + h1{
+    color: red ;
+    border: 2px solid yellow;
+}
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+       <h1>Heading 1</h1>
+       <span>
+           <h1>Heading 1</h1>
+       </span>
+       <h2>Heading 2</h2>
+    </div>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+   </body>
+
+d. After Parent Child Selector:- 
+- Used to select all the elements(child) after parent child relation.
+- ~ - Symbol
+- Syntax:- 
+element1 ~ element2{
+    ..... 
+    ..... 
+}
+- For Example :- 
+div ~ h1{
+    color: red ;
+    border: 2px solid yellow;
+}
+<link rel="stylesheet" href="style.css">
+<body>
+    <span>
+       <h1>Heading 1</h1>
+       <div>
+           <h1>Heading 1</h1>
+       </div>
+       <h2>Heading 2</h2>
+    </span>
+    <h1>Heading 1</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+   </body>

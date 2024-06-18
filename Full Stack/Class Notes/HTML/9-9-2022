@@ -1,0 +1,26 @@
+CSS:-
+C - Cascade
+
+Why CSS?
+- Formatting
+- Performance
+Types of CSS:-
+a. Inline CSS
+- Used to effect the particular element.
+- Use Style attribute
+- Syntax:-
+<element style="
+propertyname:propertyvalue;
+....
+....
+....
+">
+</element> 
+For Example:-
+
+b. Internal CSS:-
+- Used to give effects to elements inside Single HTMl Docu.
+- Used to give same effects to same elements.
+- a. With Elements
+- b. with id
+- c. With class

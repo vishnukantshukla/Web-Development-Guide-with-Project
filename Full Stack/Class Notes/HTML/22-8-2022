@@ -1,0 +1,78 @@
+ HTML List
+ - Collection of data representing in any sequence.
+ Sequence:-
+ 1. Integer
+ 2. Alphabets
+ 3. Roman Numbers
+ - Types:-
+ 1. Ordered List
+ 2. Unordered List
+ 3. Descripted List
+
+ Ordered List:-
+- Used to represent the items in sequencing or in any 
+format which is given below:-
+a. Integers
+b. Captial Letters
+c. Small Letters
+d. Small Roman Numbers
+e. Capital Roman Numbers.
+
+Tags:-
+1. OL -- Ordered List -- Parent element -- Paired tag.
+2. LI -- List Items -- Items name -- Child element of OL.
+Syntax:-
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+- By default the output is in sequence 
+starting from integer 1.
+- With start attribute we can set the starting of 
+integer value.
+- With type attribute we can set the 5 different types.
+- Integer -- By Default
+- Alphabets -- Small + Capital Letters
+- Roman Numbers -- Small + Capital Letters.
+For example:-
+<body>
+  <h1>GD SUBWAY</h1>
+  <h2>Menu</h2>
+  <ol type="I">
+    <li>Fruits</li>
+    <li>Mocktails</li>
+    <li>Soup</li>
+    <li>Coffee</li>
+    <li>Chocolate</li>
+    <li>Pizza</li>
+  </ol>
+</body> 
+- In start attribute give integer value 
+-- denotes the starting from that particular number 
+or character.
+
+Unordered List:-
+- Used to represent the list items without any order.
+- UL -- Parent element -- Paired Tag 
+- LI -- List Items -- Child element of UL.
+- With List-style-type property name you can change the style.
+For Example :-
+<body>
+<h1>Pizza Hut</h1>
+  <ul style="list-style-type: square;">
+    <li>Veggie Delight</li>
+    <li>Corn & Cheese</li>
+    <li>Garlic Bread</li>
+    <li>Cheese Burst</li>
+
+  </ul>
+
+</body>
+-- Nesting :-
+OL within OL
+UL within UL
+OL within UL
+UL within OL
+
+

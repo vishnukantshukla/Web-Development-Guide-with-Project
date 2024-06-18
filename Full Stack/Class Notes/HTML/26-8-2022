@@ -1,0 +1,17 @@
+Class
+- Class is Attribute
+- Used to give effects to single element 
+or more than one element.
+- Syntax:-
+- Use Head tag to define the class
+- Inside Head Use Style tag
+- Inside Style tag create class.
+- dot(.)classname - 1. Rule - 2. Readability
+{
+  property name:property value
+  .....
+  .....
+  .....
+} 
+- Class name is case sensitive
+For Example:-

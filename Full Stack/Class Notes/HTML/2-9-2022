@@ -1,0 +1,26 @@
+Iframes:-
+- Used to represent/display the 
+browsing/html document content.
+- Paired Tag
+Attributes:-
+1. src 
+- Give path of document
+- Give file Name
+2. srcdoc -- Represent your own content
+3. name - 
+- Used to provide name to iframe and share the same name to 
+target attribute to display content in frame.
+4. Sandbox -
+- Used to apply restrictions to the content.
+Categories of Restrictions:-
+1. On Clickable Level
+value to Sanbox Attribute= allow-same-origin
+2. On Popup Level
+value to Sanbox Attribute= allow-popups
+3. On Javascript Level
+value to Sanbox Attribute= allow-scripts
+4. On Navigation Level
+value to Sanbox Attribute= allow-top-navigation
+5. On Form Level
+value to Sanbox Attribute= allow-forms
+

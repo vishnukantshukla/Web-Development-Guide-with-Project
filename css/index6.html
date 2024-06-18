@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            background:#00c4ff;
+        }
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+        .container{
+            background-color: burlywood;
+            border: 3px solid rgb(64,6,119);
+            /*
+            we can set top, bottom, right padding like this */
+            padding-top: 79px;
+            padding-bottom: 79;
+            padding-left: 34px; 
+            margin: 34px;
+            border-radius: 23px;
+            width:233px;
+            margin-top: 79;
+            margin-bottom: 79;
+
+
+            /*padding:23px 56px 6px 78 px  padding/margin top right bottom left */
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quos voluptate suscipit reprehenderit debitis placeat soluta sequi repellendus ipsam recusandae repudiandae, quasi iste libero a quae ipsum eum! Dignissimos, temporibus!</p>
+    </div>
+
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quos voluptate suscipit reprehenderit debitis placeat soluta sequi repellendus ipsam recusandae repudiandae, quasi iste libero a quae ipsum eum! Dignissimos, temporibus!</p>
+    </div>
+
+    <div class="container">
+        <h3> This is my heading</h3>
+        <p id="Third">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quos voluptate suscipit reprehenderit debitis placeat soluta sequi repellendus ipsam recusandae repudiandae, quasi iste libero a quae ipsum eum! Dignissimos, temporibus!</p>
+    </div>
+    
+    
+    
+</body>
+</html>

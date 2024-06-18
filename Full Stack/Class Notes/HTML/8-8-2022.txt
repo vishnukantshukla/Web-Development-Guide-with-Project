@@ -1,0 +1,45 @@
+Semantics:-
+Readability:-
+//Fib Series
+int x; // used to store value 0 
+int y; // used to store value 1,i.e second value in the fib series.
+int z; // hold the sum value;
+
+- Tells the information about the html documents 
+to increase readability.
+- In HTML document we can provide readability with the help of tags.
+- It is optional
+- No effect on the html document.
+- Semantic tags:-
+1. Header
+2. Section
+3. Article
+4. Figure
+5. Figcaption
+6. Main
+7. Aside : - 
+8. Details
+9. Summary : Child of details tag
+10. Footer
+11. Mark
+12. Time -- 
+13. Nav - Navigation
+Absent :-
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

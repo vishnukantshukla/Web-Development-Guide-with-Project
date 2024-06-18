@@ -1,0 +1,73 @@
+Forms:-
+- Used to get the data by the User
+- Process the data and give response.
+- In HTML form tag
+- Form tag you create the forms -- prompt -- User
+--Get the data
+- It is collection of controls + content
+-Attributes:-
+1. accept-charset -- Encoding Method you are going to use.
+2. action 
+3. name - form - Gives name to the form
+name- Input element -- Used to transfer data with 
+name and value
+4. autocomplete -- 
+- Used to select the preentered string by the user
+- No Need to write preenetered content again
+- By Default Autocomplete is on.
+- Two values for Autocomplete:-
+a. on - CAn select preenterted content 
+b. off - not able to select preentered content.
+5. method:-
+
+- By default get method is used to send data or store data.
+a. get:-
+- Data is shared in the url 
+- After ? data is appended
+- ? denotes the starting of query String
+- Query String is one of the technique 
+to transfer data from one page to another page.
+- Used to send small amount of data
+- Don't use this method to send sensitive data
+- Maximum of 2048 characters used to send in the url.
+
+b. post :-
+- Secure method
+- Data is not shared in the url
+- You can send sensitive data
+- You can send large amount of data.
+- No limit
+
+- Steps:-
+a. Event
+b. create connection:-
+4 parameters:-
+- Server name
+- User name
+- Password
+- Data base
+c. Query :-
+Email           Password
+Y               Y           Profile
+N               N           Not Registered
+Y               N           Check YOur credentials
+N               Y           Check YOur credentials
+
+Javascript :-
+Object oriented:-
+Class
+Object
+Inheritance
+Polymorphism
+Message Passing
+Abstraction
+
+Object based:-
+Javascript 
+- Used to get data during run time
+- Make applications dynamic
+- Ways to use Javascript:- 
+
+
+
+

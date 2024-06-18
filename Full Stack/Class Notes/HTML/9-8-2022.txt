@@ -1,0 +1,32 @@
+Quotation Tags:-
+1. q -quotation -- double quotes -- "aaaaaaa"
+2. blockquote - 
+3. cite - citation -- 
+4. abbr - abbrevation -- HTML ,GLA 
+5. address - Email , contact ,Permament Address, Official Address
+
+
+Formatting Tags:-
+- These tags are used to give effects on the content/ text.
+1. i - italic -- 
+2. b - bold -- 
+3. strong -- 
+- more importance
+- Diagrammetic no difference
+4. em - Emphasize the text
+5. sup - Superscript --  E=mc^2 , a^2+b^2
+6. sub - Subscript -- C6h12 h2o   
+7. del - display the text which is deleted and strikethough it.
+8. ins - display the text which is added.
+- underline the inserted text.
+9. Mark - Highlight the text.
+10. small - 
+
+
+
+
+
+
+
+
+
